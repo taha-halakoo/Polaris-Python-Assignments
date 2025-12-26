@@ -1,0 +1,25 @@
+!!! SYSTEM LOG START !!!
+
+User registered with email: alpha.user@domain.com
+Emergency contact number: +49-151-23456789
+
+Warning: failed login attempt
+Email used: alpha.user@domain.com
+Phone entered: +49-151-23456789
+
+Random garbage data:
+$$$ %% ^^ **
+
+Possible contact: beta-user_42@another-domain.co.uk
+Old phone number: 0212 555 44 33
+Old phone number: 0212 555 44 33
+
+Incorrect entries:
+email@@wrong.com
+phone: 000-000
+
+New signup:
+gamma.user@domain.com
++1 202 555 0198
+
+!!! SYSTEM LOG END !!!

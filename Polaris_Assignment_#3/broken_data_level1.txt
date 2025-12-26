@@ -1,0 +1,19 @@
+Hello team,
+
+Please contact John at john.doe@example.com for the report.
+If he does not answer, try calling +1 415-555-2671.
+
+Some random text here ###
+ERROR CODE: 0xAF23!!
+
+Another contact might be sara_smith99@mail-service.net
+Phone number (maybe): 0044 7700 900123
+
+Ignore this: not-an-email@com
+Ignore this too: 123-ABC-789
+
+Backup contact:
+admin@company.org
++90 532 123 45 67
+
+End of file.

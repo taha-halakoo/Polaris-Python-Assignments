@@ -1,26 +1,24 @@
-import re
+import pytest
+from password_security import check_password_strength
 
-def check_password(password):
-    issues = []
+# 1. Test a Perfect Password
+def test_strong_password():
+    # Should return an empty list [] because there are no issues
+    assert check_password_strength("Strong1!") == []
 
-    if not re.search(r"[A-Z]", password):
-        issues.append("uppercase")
-
-    if not re.search(r"\d", password):
-        issues.append("number")
-
-    if not re.search(r"[^A-Za-z0-9]", password):
-        issues.append("special")
-
-    return issues
-
-
-def test_valid_password():
-    assert check_password("Strong1!") == []
-
+# 2. Test Missing Uppercase
 def test_missing_uppercase():
-    assert "uppercase" in check_password("strong1!")
+    # We check if the specific error message is inside the returned list
+    issues = check_password_strength("weak1!")
+    assert "Missing uppercase letter (A-Z)" in issues
 
-def test_missing_everything():
-    issues = check_password("password")
+# 3. Test Missing Special Char
+def test_missing_special():
+    issues = check_password_strength("NoSpecial1")
+    assert "Missing special character (!@#...)" in issues
+
+# 4. Test Missing Everything (Total failure)
+def test_weak_password():
+    issues = check_password_strength("weak")
+    # Should fail on Uppercase, Number, AND Special char (3 errors)
     assert len(issues) == 3

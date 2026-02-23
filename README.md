@@ -87,8 +87,8 @@ This assignment introduces three important engineering skills:
 | `data_hunter.py` | Extracts emails and phone numbers from broken data using Regex. The user can choose between loading data from a file or pasting raw data manually. Cleaned results are saved to output files. |
 | `password_security.py` | Interactive password validation system that checks for uppercase letters, numbers, and special characters. The program runs in a loop and provides clear feedback. |
 | `test_security.py` | Unit tests written with `pytest` to verify the password validation logic under multiple scenarios. |
-| `broken_data_level1.txt` | Noisy sample data containing mixed valid and invalid contact information. |
-| `broken_data_level2.txt` | More complex broken data with duplicates and log-style entries for advanced cleaning. |
+| `lvl1_bozuk_veri.txt` | Noisy sample data containing mixed valid and invalid contact information. |
+| `lvl2_bozuk_veri.txt` | More complex broken data with duplicates and log-style entries for advanced cleaning. |
 
 ---
 
@@ -133,9 +133,9 @@ Polaris/
 
 │ ├── test_security.py
 
-│ ├── broken_data_level1.txt
+│ ├── lvl1_bozuk_veri.txt
 
-│ ├── broken_data_level2.txt
+│ ├── lvl2_bozuk_veri.txt
 
 │
 

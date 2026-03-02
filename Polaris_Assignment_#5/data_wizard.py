@@ -5,8 +5,7 @@ def analyze_data(*args, **kwargs):
     Advanced Data Analyzer using *args and **kwargs.
     Accepts any number of lists to analyze and specific keyword rules.
     """
-    print("
-[System] Running Advanced Data Analysis... 🧙‍♂️✨")
+    print("\n[System] Running Advanced Data Analysis... 🧙‍♂️✨")
     
     total_items = sum(len(data_list) for data_list in args)
     print(f"📊 Total records processed across {len(args)} dataset(s): {total_items}")
@@ -17,8 +16,7 @@ def analyze_data(*args, **kwargs):
     if "starts_with" in kwargs:
         print(f"   -> Name Must Start With: '{kwargs['starts_with']}'")
     
-    print("[System] Analysis complete. ✅
-")
+    print("[System] Analysis complete. ✅\n")
 
 print("Hi!")
 while True:
@@ -48,24 +46,21 @@ while True:
         
         try:
             if choice == "1":
-                print("
-📄 Raw Data Preview:")
+                print("\n📄 Raw Data Preview:")
                 for p in people[:5]:
                     print(f" - {p}")
                 print(" ...")
             elif choice == "2":
                 # List comprehension for age > 20
                 adults = [p for p in people if p["age"] > 20]
-                print(f"
-🎂 Found {len(adults)} people older than 20:")
+                print(f"\n🎂 Found {len(adults)} people older than 20:")
                 for p in adults[:5]:
                     print(f" - {p}")
                 if len(adults) > 5: print(" ...")
             elif choice == "3":
                 # List comprehension for names starting with 'A'
                 a_names = [p for p in people if p["name"].startswith('A')]
-                print(f"
-🅰️ Found {len(a_names)} people whose name starts with 'A':")
+                print(f"\n🅰️ Found {len(a_names)} people whose name starts with 'A':")
                 for p in a_names[:5]:
                     print(f" - {p}")
                 if len(a_names) > 5: print(" ...")

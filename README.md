@@ -114,6 +114,24 @@ This assignment acts as a bridge to understanding the architecture of AI models 
 
 ---
 
+## 📌 Assignment #5 — The Pythonic Summit (Final Assignment)
+
+**Focus:**  
+Mastering advanced Python features to write shorter, more elegant, and highly efficient code ("Pythonic" code). This is the final step before diving into Artificial Intelligence.
+
+### Topics Covered
+- List Comprehensions (One-liners for `for` loops and `if` conditions)
+- Advanced functions with `*args` and `**kwargs`
+- Data filtering and manipulation
+
+### Mini-Projects
+
+| File | Description |
+|-----|------------|
+| `data_wizard.py` | A CLI simulation that generates a dataset of people and uses **list comprehensions** to filter them by age and name. It also features a robust `analyze_data` function showcasing the use of `*args` and `**kwargs` for flexible data processing. |
+
+---
+
 ## 📁 Repository Structure
 
 Polaris/
@@ -142,6 +160,9 @@ Polaris/
 ├── Polaris_Assignment_#4/
 │ ├── personal_assistant.py
 │ ├── rocket_simulation.py
+│
+├── Polaris_Assignment_#5/
+│ ├── data_wizard.py
 │
 ...
 

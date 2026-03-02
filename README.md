@@ -135,35 +135,65 @@ Mastering advanced Python features to write shorter, more elegant, and highly ef
 ## 📁 Repository Structure
 
 Polaris/
+
 │
+
 ├── Polaris_Assignment_#1/
+
 │ ├── hundred_years_calculator.py
+
 │ ├── simple_calculator.py
+
 │ ├── positive_negative.py
+
 │ ├── grader.py
+
 │
+
 ├── Polaris_Assignment_#2/
+
 │ ├── countdown.py
+
 │ ├── sum_calculator.py
+
 │ ├── multiplecation_table.py
+
 │ ├── number_check.py
+
 │ ├── guessing_game.py
+
 │ ├── midterm_counter.py
+
 │
+
 ├── Polaris_Assignment_#3/
+
 │ ├── data_hunter.py
+
 │ ├── password_security.py
+
 │ ├── test_security.py
+
 │ ├── lvl1_bozuk_veri.txt
+
 │ ├── lvl2_bozuk_veri.txt
+
 │
+
 ├── Polaris_Assignment_#4/
+
 │ ├── personal_assistant.py
+
 │ ├── rocket_simulation.py
+
 │
+
 ├── Polaris_Assignment_#5/
+
 │ ├── data_wizard.py
+
 │
+
 ...
 
 ---

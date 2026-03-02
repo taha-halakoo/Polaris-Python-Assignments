@@ -92,55 +92,58 @@ This assignment introduces three important engineering skills:
 
 ---
 
+## 📌 Assignment #4 — Object-Oriented Programming (OOP)
+
+**Focus:**  
+Transitioning to **Object-Oriented Programming (OOP)** by understanding classes, objects, methods, and encapsulation.
+
+This assignment acts as a bridge to understanding the architecture of AI models and advanced software systems.
+
+### Topics Covered
+- Classes and Objects  
+- The `__init__` constructor  
+- Instance attributes and methods  
+- State management inside objects  
+
+### Mini-Projects
+
+| File | Description |
+|-----|------------|
+| `rocket_simulation.py` | A `Rocket` class that tracks fuel levels. Includes methods to launch the rocket (consuming fuel) and refuel. Runs in a continuous interactive CLI loop. |
+| `personal_assistant.py` | An `Assistant` class that acts as a simple AI chatbot. It tracks its own operation count invisibly and provides a status report, greeting, and current time. |
+
+---
+
 ## 📁 Repository Structure
 
 Polaris/
 │
-
 ├── Polaris_Assignment_#1/
-
 │ ├── hundred_years_calculator.py
-
 │ ├── simple_calculator.py
-
 │ ├── positive_negative.py
-
 │ ├── grader.py
-
 │
-
 ├── Polaris_Assignment_#2/
-
 │ ├── countdown.py
-
 │ ├── sum_calculator.py
-
 │ ├── multiplecation_table.py
-
 │ ├── number_check.py
-
 │ ├── guessing_game.py
-
 │ ├── midterm_counter.py
-
 │
-
 ├── Polaris_Assignment_#3/
-
 │ ├── data_hunter.py
-
 │ ├── password_security.py
-
 │ ├── test_security.py
-
 │ ├── lvl1_bozuk_veri.txt
-
 │ ├── lvl2_bozuk_veri.txt
-
 │
-
+├── Polaris_Assignment_#4/
+│ ├── personal_assistant.py
+│ ├── rocket_simulation.py
+│
 ...
-
 
 ---
 

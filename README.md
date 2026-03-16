@@ -132,65 +132,91 @@ Mastering advanced Python features to write shorter, more elegant, and highly ef
 
 ---
 
+# 🤖 THE NEW ERA — Artificial Intelligence
+
+Welcome to the second phase of the program! After mastering the "tools" of Python, we are now building systems that can "think" and solve problems using classical AI algorithms.
+
+## 📌 AI Assignment #1 — Search Algorithms
+
+**Focus:**  
+Building the foundation of AI search agents. Understanding how pathfinding works using different frontier structures.
+
+### Topics Covered
+- Search Problems & State Spaces
+- **Depth-First Search (DFS)** vs **Breadth-First Search (BFS)**
+- Stack (LIFO) and Queue (FIFO) logic
+- Class Inheritance for efficient code structure
+
+### Mini-Projects
+
+| File | Description |
+|-----|------------|
+| `search_structures.py` | A simulation where you can see exactly how Nodes are added and removed in DFS and BFS logic using Stack and Queue classes. |
+
+---
+
 ## 📁 Repository Structure
 
 Polaris/
-
 │
 
 ├── Polaris_Assignment_#1/
 
-│ ├── hundred_years_calculator.py
+│   ├── hundred_years_calculator.py
 
-│ ├── simple_calculator.py
+│   ├── simple_calculator.py
 
-│ ├── positive_negative.py
+│   ├── positive_negative.py
 
-│ ├── grader.py
+│   ├── grader.py
 
 │
 
 ├── Polaris_Assignment_#2/
 
-│ ├── countdown.py
+│   ├── countdown.py
 
-│ ├── sum_calculator.py
+│   ├── sum_calculator.py
 
-│ ├── multiplecation_table.py
+│   ├── multiplecation_table.py
 
-│ ├── number_check.py
+│   ├── number_check.py
 
-│ ├── guessing_game.py
+│   ├── guessing_game.py
 
-│ ├── midterm_counter.py
+│   ├── midterm_counter.py
 
 │
 
 ├── Polaris_Assignment_#3/
 
-│ ├── data_hunter.py
+│   ├── data_hunter.py
 
-│ ├── password_security.py
+│   ├── password_security.py
 
-│ ├── test_security.py
+│   ├── test_security.py
 
-│ ├── lvl1_bozuk_veri.txt
+│   ├── lvl1_bozuk_veri.txt
 
-│ ├── lvl2_bozuk_veri.txt
-
+│   ├── lvl2_bozuk_veri.txt
 │
-
 ├── Polaris_Assignment_#4/
 
-│ ├── personal_assistant.py
+│   ├── personal_assistant.py
 
-│ ├── rocket_simulation.py
+│   ├── rocket_simulation.py
 
 │
 
 ├── Polaris_Assignment_#5/
 
-│ ├── data_wizard.py
+│   ├── data_wizard.py
+
+│
+
+├── Polaris_Assignment_AI_#1/
+
+│   ├── search_structures.py
 
 │
 
@@ -200,7 +226,7 @@ Polaris/
 
 ## 🎯 Purpose of This Repository
 
-- Track my development as a Python programmer  
+- Track my development as a Python & AI programmer  
 - Build a structured and readable coding portfolio  
 - Document my progress throughout the Polaris AI Program  
 - Prepare for future work in **AI, robotics, electronics, and engineering systems**  

@@ -155,6 +155,25 @@ Building the foundation of AI search agents. Understanding how pathfinding works
 
 ---
 
+## 📌 AI Assignment #2 — Knowledge & Logic
+
+**Focus:**  
+Building a **Deductive Inference Engine**. Understanding how an AI agent maintains a state (Knowledge Base), updates it with evidence, and makes logical decisions.
+
+### Topics Covered
+- Propositional Logic & Inference
+- State Management (Knowledge Base)
+- Logical Elimination (The "Clue" Game Philosophy)
+- Clean OOP for decision-making systems
+
+### Mini-Projects
+
+| File | Description |
+|-----|------------|
+| `logic_deduction.py` | A `Detective` class simulation that maintains a list of suspects and uses logical elimination to find the culprit based on incoming evidence. |
+
+---
+
 ## 📁 Repository Structure
 
 Polaris/
@@ -217,6 +236,12 @@ Polaris/
 ├── Polaris_Assignment_AI_#1/
 
 │   ├── search_structures.py
+
+│
+
+├── Polaris_Assignment_AI_#2/
+
+│   ├── logic_deduction.py
 
 │
 

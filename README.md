@@ -174,6 +174,25 @@ Building a **Deductive Inference Engine**. Understanding how an AI agent maintai
 
 ---
 
+## 📌 AI Assignment #3 — Uncertainty & Markov Models
+
+**Focus:**  
+Understanding how AI deals with uncertainty. Moving from absolute true/false logic to probabilistic reasoning using Markov Models to predict future states based on current realities.
+
+### Topics Covered
+- Uncertainty in AI
+- The Markov Assumption
+- Transition Probabilities
+- Modeling state changes over time using OOP
+
+### Mini-Projects
+
+| File | Description |
+|-----|------------|
+| `weather_simulation.py` | A `Weather` class simulation that uses a Markov Model to predict the weather over a 10-day period based on weighted probabilities of transition between states. |
+
+---
+
 ## 📁 Repository Structure
 
 Polaris/
@@ -242,6 +261,12 @@ Polaris/
 ├── Polaris_Assignment_AI_#2/
 
 │   ├── logic_deduction.py
+
+│
+
+├── Polaris_Assignment_AI_#3/
+
+│   ├── weather_simulation.py
 
 │
 
